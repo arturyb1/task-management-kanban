@@ -1,20 +1,16 @@
 import TaskColumn from './TaskColumn'
-import './TaskBoard.css'
 
-const TaskBoard = ({ tasks }) => {
-  const columns = [
-    { name: 'To Do', status: 'To Do' },
-    { name: 'In Progress', status: 'In Progress' },
-    { name: 'Completed', status: 'Completed' }
-  ]
+const TaskBoard = ({ tasks, onTaskClick }) => {
+  const statuses = ['To Do', 'In Progress', 'Completed'] // Adjust the statuses based on your data
 
   return (
     <div className="task-board">
-      {columns.map((column) => (
+      {statuses.map((status) => (
         <TaskColumn
-          key={column.status}
-          name={column.name}
-          tasks={tasks.filter((task) => task.status === column.status)}
+          key={status}
+          status={status}
+          tasks={tasks}
+          onTaskClick={onTaskClick}
         />
       ))}
     </div>

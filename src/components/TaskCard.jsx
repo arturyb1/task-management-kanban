@@ -1,15 +1,8 @@
-import './TaskCard.css'
-
-const TaskCard = ({ task }) => {
+const TaskCard = ({ task, onClick }) => {
   return (
-    <div className="task-card">
+    <div className="task-card" onClick={onClick}>
       <h3>{task.taskName}</h3>
-      <p>
-        <strong>Due Date:</strong> {task.dueDate}
-      </p>
-      <p>
-        <strong>Customer:</strong> {task.customer}
-      </p>
+      <p>{task.projectName}</p>
     </div>
   )
 }

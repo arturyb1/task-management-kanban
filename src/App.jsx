@@ -1,11 +1,27 @@
+import React, { useState } from 'react'
 import TaskBoard from './components/TaskBoard'
-import tasks from './tasks.json'
+import TaskDetails from './components/TaskDetails'
+import tasks from './tasks.json' // Ensure this file path is correct
 import './App.css'
 
-function App() {
+const App = () => {
+  const [selectedTask, setSelectedTask] = useState(null)
+
+  const handleTaskClick = (task) => {
+    setSelectedTask(task)
+  }
+
+  const handleCloseDetails = () => {
+    setSelectedTask(null)
+  }
+
   return (
     <div className="App">
-      <TaskBoard tasks={tasks} />
+      <h1>Task Management</h1>
+      <TaskBoard tasks={tasks} onTaskClick={handleTaskClick} />
+      {selectedTask && (
+        <TaskDetails task={selectedTask} onClose={handleCloseDetails} />
+      )}
     </div>
   )
 }

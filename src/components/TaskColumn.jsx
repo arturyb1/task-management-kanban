@@ -1,13 +1,18 @@
 import TaskCard from './TaskCard'
-import './TaskColumn.css'
 
-const TaskColumn = ({ name, tasks }) => {
+const TaskColumn = ({ status, tasks, onTaskClick }) => {
   return (
     <div className="task-column">
-      <h2>{name}</h2>
-      {tasks.map((task) => (
-        <TaskCard key={task.taskID} task={task} />
-      ))}
+      <h2>{status}</h2>
+      {tasks
+        .filter((task) => task.status === status)
+        .map((task) => (
+          <TaskCard
+            key={task.taskID}
+            task={task}
+            onClick={() => onTaskClick(task)}
+          />
+        ))}
     </div>
   )
 }
