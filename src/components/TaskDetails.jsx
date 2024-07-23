@@ -3,8 +3,11 @@ const TaskDetails = ({ task, onClose }) => {
     <>
       <div className="overlay"></div>
       <div className="task-details">
-        <button onClick={onClose}>Close</button>
-        <h2>{task.taskName}</h2>
+        <div className="task-details-header">
+          <h2>{task.taskName}</h2>
+          <button onClick={onClose}>Close</button>
+        </div>
+
         <div className="task-details-content">
           <div className="task-info">
             <h3>Info</h3>
