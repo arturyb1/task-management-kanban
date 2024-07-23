@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import TaskBoard from './components/TaskBoard'
 import TaskDetails from './components/TaskDetails'
-import tasks from './tasks.json' // Ensure this file path is correct
+import tasks from './tasks.json' // Ensure the JSON file path is correct
 import './App.css'
 
 const App = () => {
@@ -17,7 +17,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Task Management</h1>
+      <nav>
+        <h1>My tasks</h1>
+      </nav>
       <TaskBoard tasks={tasks} onTaskClick={handleTaskClick} />
       {selectedTask && (
         <TaskDetails task={selectedTask} onClose={handleCloseDetails} />

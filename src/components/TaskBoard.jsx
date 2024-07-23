@@ -1,7 +1,7 @@
 import TaskColumn from './TaskColumn'
 
 const TaskBoard = ({ tasks, onTaskClick }) => {
-  const statuses = ['To Do', 'In Progress', 'Completed'] // Adjust the statuses based on your data
+  const statuses = ['To Do', 'In Progress', 'Completed']
 
   return (
     <div className="task-board">
