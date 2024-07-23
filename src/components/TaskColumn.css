@@ -1,0 +1,10 @@
+.task-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 33%;
+}
+
+h2 {
+  align-items: center;
+}

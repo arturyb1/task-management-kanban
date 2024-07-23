@@ -1,3 +1,5 @@
+import './TaskCard.css'
+
 const TaskCard = ({ task }) => {
   return (
     <div className="task-card">

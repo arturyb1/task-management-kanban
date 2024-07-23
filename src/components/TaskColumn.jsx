@@ -1,4 +1,5 @@
 import TaskCard from './TaskCard'
+import './TaskColumn.css'
 
 const TaskColumn = ({ name, tasks }) => {
   return (

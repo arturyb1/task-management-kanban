@@ -1,4 +1,5 @@
 import TaskColumn from './TaskColumn'
+import './TaskBoard.css'
 
 const TaskBoard = ({ tasks }) => {
   const columns = [
