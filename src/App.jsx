@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import TaskBoard from './components/TaskBoard'
 import TaskDetails from './components/TaskDetails'
-import tasks from './tasks.json' // Ensure the JSON file path is correct
+import tasks from './tasks.json'
 import './App.css'
 
 const App = () => {
