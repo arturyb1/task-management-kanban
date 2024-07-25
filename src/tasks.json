@@ -7,7 +7,7 @@
     "description": "Create a new design for the homepage.",
     "dueDate": "2024-08-15",
     "priority": "High",
-    "status": "In Progress",
+    "status": "In progress",
     "taskLogs": [
       { "date": "2024-07-01", "log": "Initial design draft completed." },
       { "date": "2024-07-10", "log": "Feedback from customer received." }
@@ -45,7 +45,13 @@
     "status": "Completed",
     "taskLogs": [
       { "date": "2024-06-20", "log": "Database schema designed." },
-      { "date": "2024-06-25", "log": "Database set up and configured." }
+      { "date": "2024-06-25", "log": "Database set up and configured." },
+      { "date": "2024-06-26", "log": "Database schema designed." },
+      { "date": "2024-06-27", "log": "Database set up and configured." },
+      { "date": "2024-06-28", "log": "Database schema designed." },
+      { "date": "2024-06-29", "log": "Database set up and configured." },
+      { "date": "2024-06-30", "log": "Database schema designed." },
+      { "date": "2024-07-01", "log": "Database set up and configured." }
     ],
     "estimatedHours": 30,
     "actualHours": 35,
@@ -61,7 +67,7 @@
     "description": "Implement user authentication for the customer portal.",
     "dueDate": "2024-07-30",
     "priority": "High",
-    "status": "In Progress",
+    "status": "In progress",
     "taskLogs": [
       { "date": "2024-07-10", "log": "Initial implementation completed." },
       { "date": "2024-07-15", "log": "Undergoing security review." }
@@ -80,7 +86,7 @@
     "description": "Develop a marketing plan for the new product launch.",
     "dueDate": "2024-08-05",
     "priority": "Medium",
-    "status": "To Do",
+    "status": "To do",
     "taskLogs": [],
     "estimatedHours": 15,
     "actualHours": 0,
@@ -96,7 +102,7 @@
     "description": "Create UI designs for the website.",
     "dueDate": "2024-07-28",
     "priority": "High",
-    "status": "In Progress",
+    "status": "In progress",
     "taskLogs": [
       { "date": "2024-07-05", "log": "Initial wireframes completed." },
       { "date": "2024-07-12", "log": "Design review meeting scheduled." }
@@ -115,7 +121,7 @@
     "description": "Perform unit and integration testing on the API.",
     "dueDate": "2024-09-10",
     "priority": "Medium",
-    "status": "To Do",
+    "status": "To do",
     "taskLogs": [],
     "estimatedHours": 15,
     "actualHours": 0,
@@ -150,7 +156,7 @@
     "description": "Create content for the customer portal.",
     "dueDate": "2024-08-20",
     "priority": "High",
-    "status": "To Do",
+    "status": "To do",
     "taskLogs": [],
     "estimatedHours": 40,
     "actualHours": 0,
@@ -166,7 +172,7 @@
     "description": "Execute the marketing campaign for the product launch.",
     "dueDate": "2024-09-01",
     "priority": "Medium",
-    "status": "In Progress",
+    "status": "In progress",
     "taskLogs": [
       { "date": "2024-07-15", "log": "Campaign strategy finalized." },
       { "date": "2024-07-20", "log": "Campaign materials prepared." }
@@ -185,7 +191,7 @@
     "description": "Write and review content for the new homepage.",
     "dueDate": "2024-08-01",
     "priority": "High",
-    "status": "In Progress",
+    "status": "In progress",
     "taskLogs": [
       { "date": "2024-07-01", "log": "Initial draft completed." },
       { "date": "2024-07-10", "log": "Content review meeting scheduled." }
@@ -204,7 +210,7 @@
     "description": "Identify and fix bugs in the mobile app.",
     "dueDate": "2024-08-30",
     "priority": "High",
-    "status": "To Do",
+    "status": "To do",
     "taskLogs": [],
     "estimatedHours": 20,
     "actualHours": 0,
@@ -220,7 +226,7 @@
     "description": "Optimize the e-commerce platform for search engines.",
     "dueDate": "2024-08-15",
     "priority": "Medium",
-    "status": "To Do",
+    "status": "To do",
     "taskLogs": [],
     "estimatedHours": 15,
     "actualHours": 0,
@@ -236,7 +242,7 @@
     "description": "Develop the user dashboard for the customer portal.",
     "dueDate": "2024-09-05",
     "priority": "High",
-    "status": "In Progress",
+    "status": "In progress",
     "taskLogs": [
       { "date": "2024-07-05", "log": "Initial wireframe completed." },
       { "date": "2024-07-15", "log": "Backend integration started." }
@@ -255,7 +261,7 @@
     "description": "Create a social media plan for the product launch.",
     "dueDate": "2024-08-20",
     "priority": "Medium",
-    "status": "To Do",
+    "status": "To do",
     "taskLogs": [],
     "estimatedHours": 10,
     "actualHours": 0,
@@ -271,7 +277,7 @@
     "description": "Create the design for the website footer.",
     "dueDate": "2024-07-25",
     "priority": "Low",
-    "status": "In Progress",
+    "status": "In progress",
     "taskLogs": [
       { "date": "2024-07-01", "log": "Initial design draft completed." },
       { "date": "2024-07-12", "log": "Feedback received and changes made." }
@@ -309,7 +315,7 @@
     "description": "Conduct a security audit of the customer portal.",
     "dueDate": "2024-08-30",
     "priority": "High",
-    "status": "To Do",
+    "status": "To do",
     "taskLogs": [],
     "estimatedHours": 20,
     "actualHours": 0,
@@ -325,7 +331,7 @@
     "description": "Update the privacy policy for the new product launch.",
     "dueDate": "2024-08-15",
     "priority": "Medium",
-    "status": "To Do",
+    "status": "To do",
     "taskLogs": [],
     "estimatedHours": 5,
     "actualHours": 0,
@@ -341,7 +347,7 @@
     "description": "Set up analytics for the new website.",
     "dueDate": "2024-08-20",
     "priority": "High",
-    "status": "In Progress",
+    "status": "In progress",
     "taskLogs": [
       { "date": "2024-07-01", "log": "Analytics tool selected." },
       { "date": "2024-07-15", "log": "Integration started." }
@@ -360,7 +366,7 @@
     "description": "Create comprehensive documentation for the API.",
     "dueDate": "2024-09-05",
     "priority": "Medium",
-    "status": "To Do",
+    "status": "To do",
     "taskLogs": [],
     "estimatedHours": 20,
     "actualHours": 0,
@@ -376,7 +382,7 @@
     "description": "Conduct an accessibility audit of the platform.",
     "dueDate": "2024-08-25",
     "priority": "High",
-    "status": "To Do",
+    "status": "To do",
     "taskLogs": [],
     "estimatedHours": 15,
     "actualHours": 0,
@@ -392,7 +398,7 @@
     "description": "Plan and execute an email campaign for the portal launch.",
     "dueDate": "2024-08-20",
     "priority": "Medium",
-    "status": "In Progress",
+    "status": "In progress",
     "taskLogs": [
       { "date": "2024-07-01", "log": "Email list segmented." },
       { "date": "2024-07-10", "log": "Draft email content completed." }
@@ -411,7 +417,7 @@
     "description": "Perform final testing before product launch.",
     "dueDate": "2024-08-28",
     "priority": "High",
-    "status": "To Do",
+    "status": "To do",
     "taskLogs": [],
     "estimatedHours": 15,
     "actualHours": 0,
@@ -427,7 +433,7 @@
     "description": "Roll out new features on the website.",
     "dueDate": "2024-08-10",
     "priority": "Medium",
-    "status": "In Progress",
+    "status": "In progress",
     "taskLogs": [
       { "date": "2024-07-01", "log": "Feature list finalized." },
       { "date": "2024-07-20", "log": "Development in progress." }

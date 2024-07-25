@@ -1,7 +1,7 @@
 import TaskColumn from './TaskColumn'
 
 const TaskBoard = ({ tasks, onTaskClick }) => {
-  const statuses = ['To Do', 'In Progress', 'Completed']
+  const statuses = ['To do', 'In progress', 'Completed']
 
   return (
     <div className="task-board">

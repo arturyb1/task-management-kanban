@@ -18,6 +18,7 @@ const App = () => {
   return (
     <div className="App">
       <nav>
+        <h1>📋</h1>
         <h1>My tasks</h1>
       </nav>
       <TaskBoard tasks={tasks} onTaskClick={handleTaskClick} />
