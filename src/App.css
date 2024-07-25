@@ -114,6 +114,11 @@ body {
   gap: 1.5rem;
 }
 
+.close-button {
+  background-color: white;
+  border: 0px;
+}
+
 .task-details-content {
   display: flex;
   flex-direction: row;
