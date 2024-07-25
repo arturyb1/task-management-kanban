@@ -1,7 +1,43 @@
+import React, { useEffect } from 'react'
 import DataField from './DataField'
 import StatusChip from './StatusChip'
+import '../App.css'
 
 const TaskDetails = ({ task, onClose }) => {
+  useEffect(() => {
+    const taskDetails = document.querySelector('.task-details')
+    const overlay = document.querySelector('.overlay')
+
+    overlay.classList.add('active')
+    taskDetails.classList.remove('closing')
+
+    const handleAnimationEnd = () => {
+      if (taskDetails.classList.contains('closing')) {
+        overlay.classList.remove('active')
+      }
+    }
+
+    const handleKeyDown = (event) => {
+      if (event.key === 'Escape') {
+        handleCloseClick()
+      }
+    }
+
+    taskDetails.addEventListener('animationend', handleAnimationEnd)
+    document.addEventListener('keydown', handleKeyDown)
+
+    return () => {
+      taskDetails.removeEventListener('animationend', handleAnimationEnd)
+      document.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [])
+
+  const handleCloseClick = () => {
+    const taskDetails = document.querySelector('.task-details')
+    taskDetails.classList.add('closing')
+    setTimeout(onClose, 300)
+  }
+
   return (
     <>
       <div className="overlay"></div>
@@ -11,7 +47,7 @@ const TaskDetails = ({ task, onClose }) => {
             <h2>{task.taskName}</h2>
             <StatusChip status={task.status} />
           </div>
-          <button className="close-button" onClick={onClose}>
+          <button className="close-button" onClick={handleCloseClick}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
